@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchResults from './SearchResults';
+import Input from './Input';
 
 const Search = () => {
 	const [searchString, setSearchString] = useState('dogs');
@@ -36,7 +37,7 @@ const Search = () => {
 	return (
 		<div>
 			<form onSubmit={handleSubmit}>
-				<input
+				<Input
 					type='text'
 					placeholder='Go For It Champ'
 					required

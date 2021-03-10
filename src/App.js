@@ -16,12 +16,8 @@ function App() {
 				</Link>
 			</nav>
 			<main>
-				<Route path='/' exact>
-					<Home />
-				</Route>
-				<Route path='/search'>
-					<Search />
-				</Route>
+				<Route path='/' exact component={Home} />
+				<Route path='/search' component={Search} />
 			</main>
 		</div>
 	);

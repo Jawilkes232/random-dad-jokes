@@ -5,7 +5,6 @@ const SearchResults = ({ lastSearch, jokes }) => {
 	return (
 		<div>
 			<div>
-				<h1>Results!</h1>
 				<p>Search Results for {lastSearch}:</p>
 				{/* Renders only if jokes and jokes.results exists. */}
 				{jokes?.results?.map((joke) => {
