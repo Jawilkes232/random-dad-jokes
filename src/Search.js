@@ -23,6 +23,7 @@ const Search = () => {
 	};
 	useEffect(() => {
 		getJokes(searchString);
+		//intentionally not seting the useeffect on change for search string because it will load a different search on load.
 	}, []);
 
 	const handleChange = (event) => {
@@ -32,7 +33,6 @@ const Search = () => {
 	const handleSubmit = (event) => {
 		event.preventDefault();
 		getJokes(searchString);
-		console.log(jokes);
 	};
 	return (
 		<div>

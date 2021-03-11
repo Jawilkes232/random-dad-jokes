@@ -1,21 +1,24 @@
 import styled from 'styled-components';
 
-const activeColor = '#dda15e';
+const activeColor = '#EFFFFA';
 
 const textOnPrimary = '#000000';
-const textOnPrimaryInverted = '#ffffff';
+const textOnPrimaryInverted = '#0D0C1D';
 
 const disabled = '#B1B1B1';
 const disabledText = '#3E3D3D';
 
 const Input = styled.input`
-	padding: 0.5em;
-	margin: 0.5em;
+	padding: 0.8em;
+	margin: 0.2em;
 	color: #283618;
 	background: #fefae0;
 	border: none;
 	border-radius: 3px;
 	color: ${textOnPrimary};
+	width: 30vw;
+	max-width: 1200px;
+	min-width: 250px;
 
 	&:focus {
 		background-color: ${activeColor};
@@ -34,16 +37,5 @@ const Input = styled.input`
 		cursor: not-allowed;
 	}
 `;
-// export default function Form({ handleChange, searchString }) {
-// 	const inputRef = React.useRef();
-// 	return (
-// 		<Input
-// 			ref={inputRef}
-// 			onMouseEnter={() => {
-// 				inputRef.current.focus();
-// 			}}
 
-// 		/>
-// 	);
-// }
 export default Input;

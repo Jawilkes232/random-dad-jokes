@@ -1,20 +1,21 @@
 import React from 'react';
+import Card from './Card';
+import Grid from './Grid';
 
 const SearchResults = ({ lastSearch, jokes }) => {
-	console.log(jokes);
 	return (
-		<div>
-			<div>
-				<p>Search Results for {lastSearch}:</p>
+		<div className='search-results'>
+			<h2>Search Results for {lastSearch}:</h2>
+			<Grid>
 				{/* Renders only if jokes and jokes.results exists. */}
 				{jokes?.results?.map((joke) => {
 					return (
-						<div key={joke.id}>
+						<Card key={joke.id}>
 							<h1>{joke.joke}</h1>
-						</div>
+						</Card>
 					);
 				})}
-			</div>
+			</Grid>
 		</div>
 	);
 };
