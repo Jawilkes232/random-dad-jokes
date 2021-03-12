@@ -18,7 +18,7 @@ https://random-dad-jokes.herokuapp.com/
 
 ## Key features:
 
-- Joke at a click of a button
+- Joke(s) at a click of a button
 - Mobile friendly interface
 - Search types of dad jokes
 - Single page application
