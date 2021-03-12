@@ -34,4 +34,4 @@ https://random-dad-jokes.herokuapp.com/
 
 ## Contribution Guidelines:
 
-If you would like to contribute to this project feel free to follow the [Getting Started Section](#getting-started)
+If you would like to contribute to this project feel free to follow the [Getting Started Section](#getting-started). Then after you have made the changes you would like to submit, feel free to submit a [pull request](https://github.com/Jawilkes232/random-dad-jokes/pulls)!
