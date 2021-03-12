@@ -17,6 +17,7 @@ function App() {
 						<Link to='/'>
 							<h1>Home</h1>
 						</Link>
+						<h1>Random Dad Jokes</h1>
 						<Link to='/search'>
 							<h1>Search</h1>
 						</Link>
