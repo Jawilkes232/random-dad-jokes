@@ -14,6 +14,7 @@ const Input = styled.input`
 	color: #283618;
 	background: #fefae0;
 	border: none;
+	outline: none;
 	border-radius: 3px;
 	color: ${textOnPrimary};
 	width: 30vw;
