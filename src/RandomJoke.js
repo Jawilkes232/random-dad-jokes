@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Card from './Card';
+import Button from './Button';
 
 const RandomJoke = () => {
 	const [joke, setJoke] = useState([]);
@@ -22,7 +23,7 @@ const RandomJoke = () => {
 					<h1>{joke.joke}</h1>
 				</Card>
 			) : null}
-			<button onClick={getJoke}>What's the Damage?</button>
+			<Button onClick={getJoke}>What's the Damage?</Button>
 		</div>
 	);
 };
