@@ -4,11 +4,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0;
 }
 nav a {
     color: white;
     display: inline-block;
     font-size: 1.2em;
     text-decoration: none;
-  }
+}
